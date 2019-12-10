@@ -13,7 +13,7 @@
 				"relativeUrl": "fma_metadata.zip"
 			},
 			"compression": {
-				"type": "ZipDeflate",
+				"type": "deflate",
 				"level": "Fastest"
 			}
 		}
