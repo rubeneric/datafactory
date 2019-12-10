@@ -1,5 +1,5 @@
 {
-	"name": "fmasmall",
+	"name": "fma_stgsmall",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "adftargetstg",
