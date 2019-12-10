@@ -1,0 +1,21 @@
+{
+	"name": "fma_metadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "fma_http",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "fma_metadata.zip"
+			},
+			"compression": {
+				"type": "bzip2",
+				"level": "Fastest"
+			}
+		}
+	}
+}
