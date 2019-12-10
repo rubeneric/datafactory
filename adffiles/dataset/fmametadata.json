@@ -11,10 +11,6 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"container": "fmametadata"
-			},
-			"compression": {
-				"type": "ZipDeflate",
-				"level": "Fastest"
 			}
 		}
 	}
