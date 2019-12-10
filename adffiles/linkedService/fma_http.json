@@ -1,0 +1,13 @@
+{
+	"name": "fma_http",
+	"properties": {
+		"description": "Free music archive download location: https://os.unil.cloud.switch.ch/fma/",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://os.unil.cloud.switch.ch/fma/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
