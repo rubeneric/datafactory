@@ -1,0 +1,21 @@
+{
+	"name": "fmametadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adftargetstg",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "fmametadata"
+			},
+			"compression": {
+				"type": "ZipDeflate",
+				"level": "Fastest"
+			}
+		}
+	}
+}
