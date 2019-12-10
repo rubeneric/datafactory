@@ -1,0 +1,21 @@
+{
+	"name": "fma_small",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "fma_http",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "fma_small.zip"
+			},
+			"compression": {
+				"type": "deflate",
+				"level": "Fastest"
+			}
+		}
+	}
+}
