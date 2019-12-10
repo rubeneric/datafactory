@@ -13,7 +13,7 @@
 				"relativeUrl": "fma_small.zip"
 			},
 			"compression": {
-				"type": "deflate",
+				"type": "bzip2",
 				"level": "Fastest"
 			}
 		}
