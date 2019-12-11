@@ -1,5 +1,5 @@
 {
-	"name": "fma_metadata",
+	"name": "fma_metadata_web",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "fma_http",
@@ -13,7 +13,7 @@
 				"relativeUrl": "fma_metadata.zip"
 			},
 			"compression": {
-				"type": "deflate",
+				"type": "ZipDeflate",
 				"level": "Fastest"
 			}
 		}
