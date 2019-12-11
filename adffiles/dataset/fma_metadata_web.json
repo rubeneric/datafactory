@@ -11,10 +11,6 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": "fma_metadata.zip"
-			},
-			"compression": {
-				"type": "ZipDeflate",
-				"level": "Fastest"
 			}
 		}
 	}
