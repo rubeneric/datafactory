@@ -1,0 +1,16 @@
+{
+	"name": "sqldb_fma_metadata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldb_fma_metadata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tracks"
+		}
+	}
+}
