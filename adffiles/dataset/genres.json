@@ -1,0 +1,38 @@
+{
+	"name": "genres",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldb_fma_metadata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "genre_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "tracks",
+				"type": "nvarchar"
+			},
+			{
+				"name": "parent",
+				"type": "nvarchar"
+			},
+			{
+				"name": "title",
+				"type": "nvarchar"
+			},
+			{
+				"name": "top_level",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "genres"
+		}
+	}
+}
