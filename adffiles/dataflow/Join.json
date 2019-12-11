@@ -1,5 +1,5 @@
 {
-	"name": "dataflow1",
+	"name": "Join",
 	"properties": {
 		"type": "MappingDataFlow",
 		"typeProperties": {
