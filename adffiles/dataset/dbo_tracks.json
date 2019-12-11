@@ -1,0 +1,236 @@
+{
+	"name": "dbo_tracks",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldb_fma_metadata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Column_1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "comments",
+				"type": "nvarchar"
+			},
+			{
+				"name": "date_created",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "date_released",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "engineer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "favorites",
+				"type": "nvarchar"
+			},
+			{
+				"name": "id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "information",
+				"type": "nvarchar"
+			},
+			{
+				"name": "listens",
+				"type": "nvarchar"
+			},
+			{
+				"name": "producer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "tags",
+				"type": "nvarchar"
+			},
+			{
+				"name": "title",
+				"type": "nvarchar"
+			},
+			{
+				"name": "tracks",
+				"type": "nvarchar"
+			},
+			{
+				"name": "type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "active_year_begin",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "active_year_end",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "associated_labels",
+				"type": "nvarchar"
+			},
+			{
+				"name": "bio",
+				"type": "nvarchar"
+			},
+			{
+				"name": "comments1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "date_created1",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "favorites1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "id1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "latitude",
+				"type": "nvarchar"
+			},
+			{
+				"name": "location",
+				"type": "nvarchar"
+			},
+			{
+				"name": "longitude",
+				"type": "nvarchar"
+			},
+			{
+				"name": "members",
+				"type": "nvarchar"
+			},
+			{
+				"name": "name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "related_projects",
+				"type": "nvarchar"
+			},
+			{
+				"name": "tags1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "website",
+				"type": "nvarchar"
+			},
+			{
+				"name": "wikipedia_page",
+				"type": "nvarchar"
+			},
+			{
+				"name": "split",
+				"type": "nvarchar"
+			},
+			{
+				"name": "subset",
+				"type": "nvarchar"
+			},
+			{
+				"name": "bit_rate",
+				"type": "nvarchar"
+			},
+			{
+				"name": "comments2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "composer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "date_created2",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "date_recorded",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "duration",
+				"type": "nvarchar"
+			},
+			{
+				"name": "favorites2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "genre_top",
+				"type": "nvarchar"
+			},
+			{
+				"name": "genres",
+				"type": "nvarchar"
+			},
+			{
+				"name": "genres_all",
+				"type": "nvarchar"
+			},
+			{
+				"name": "information1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "interest",
+				"type": "nvarchar"
+			},
+			{
+				"name": "language_code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "license",
+				"type": "nvarchar"
+			},
+			{
+				"name": "listens1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "lyricist",
+				"type": "nvarchar"
+			},
+			{
+				"name": "number",
+				"type": "nvarchar"
+			},
+			{
+				"name": "publisher",
+				"type": "nvarchar"
+			},
+			{
+				"name": "tags2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "title1",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tracks"
+		}
+	}
+}
