@@ -1,9 +1,9 @@
 {
-	"name": "freemusicarchive",
+	"name": "downloadfiles",
 	"properties": {
 		"activities": [
 			{
-				"name": "download music",
+				"name": "Download songs",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -19,8 +19,7 @@
 						"type": "BinarySource",
 						"storeSettings": {
 							"type": "HttpReadSettings",
-							"requestMethod": "GET",
-							"requestTimeout": ""
+							"requestMethod": "GET"
 						}
 					},
 					"sink": {
@@ -39,13 +38,13 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "fma_small_stg",
+						"referenceName": "fma_small",
 						"type": "DatasetReference"
 					}
 				]
 			},
 			{
-				"name": "download metadata",
+				"name": "Download metadata",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -80,7 +79,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "fma_metadata_stg",
+						"referenceName": "fma_metadata",
 						"type": "DatasetReference"
 					}
 				]

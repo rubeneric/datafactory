@@ -1,8 +1,8 @@
 {
-	"name": "fma_metadata_stg",
+	"name": "fma_metadata",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "adftargetstg",
+			"referenceName": "fmadata_account",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "fmametadata"
+				"container": "metadata"
 			}
 		}
 	}

@@ -1,5 +1,5 @@
 {
-	"name": "fma_small",
+	"name": "fma_small_web",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "fma_http",
@@ -11,10 +11,6 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": "fma_small.zip"
-			},
-			"compression": {
-				"type": "deflate",
-				"level": "Fastest"
 			}
 		}
 	}
