@@ -1,0 +1,19 @@
+{
+	"name": "AWS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AmazonS31",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "vnbgbn"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
